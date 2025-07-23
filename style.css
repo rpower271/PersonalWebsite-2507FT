@@ -35,6 +35,14 @@ img {
   background-color: #000;
   z-index: 100;
 }
-#section1{
-    justify-self: center;
+#section1 {
+  justify-self: center;
+}
+@media (width <= 600px) {
+  body {
+    background-color: rgb(8, 95, 177);
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+  }
 }
